@@ -1,13 +1,5 @@
 import AlbumListItem from "@containers/list/AlbumListItem";
-
-interface Props {
-  id: number;
-  albumTitle: string;
-  albumArt: string;
-  songTitle: string;
-  artist: string;
-  genre: string;
-}
+import styles from "./page.module.scss";
 
 async function getRecordData() {
   const response = await fetch("http://localhost:3000/data/recordData.json");
@@ -24,22 +16,10 @@ export default async function Page() {
 
   return (
     <>
-      <ul>
-        {data.result.map(
-          ({ id, albumTitle, albumArt, songTitle, artist, genre }: Props) => {
-            return (
-              <AlbumListItem
-                key={id}
-                id={id}
-                albumTitle={albumTitle}
-                albumArt={albumArt}
-                songTitle={songTitle}
-                artist={artist}
-                genre={genre}
-              />
-            );
-          }
-        )}
+      <ul className={styles["album-list"]}>
+        {data.result.map((item: any, index: number) => {
+          return <AlbumListItem key={index} item={item} />;
+        })}
       </ul>
     </>
   );

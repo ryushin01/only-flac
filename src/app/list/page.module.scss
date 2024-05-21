@@ -1,0 +1,6 @@
+@import "@styles/mixin";
+
+.album-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}

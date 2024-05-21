@@ -1,0 +1,16 @@
+@import "@styles/mixin";
+
+.album-list-item {
+  position: relative;
+
+  .album-art {
+    position: relative;
+    display: block;
+    padding-bottom: 100%;
+
+    img {
+      position: absolute;
+      inset: 0;
+    }
+  }
+}

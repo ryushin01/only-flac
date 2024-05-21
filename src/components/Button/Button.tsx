@@ -1,5 +1,4 @@
 "use client";
-
 import styles from "./Button.module.scss";
 
 type ButtonProps = {
@@ -34,6 +33,7 @@ export default function Button({
         `}
       disabled={isDisabled}
       onClick={onClick}
+      aria-label={content}
     >
       {content}
     </button>

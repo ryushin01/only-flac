@@ -5,7 +5,7 @@
     {
       "id": 1,
       "albumTitle": "Red Moon: To You My Light",
-      "albumArt": "https://cdnimg.melon.co.kr/cm/album/images/102/94/603/10294603_500.jpg?0c56b81bdfc97f7c568a95aad6a7614a/melon/resize/282/quality/80/optimize",
+      "albumArt": "/images/album/art/001.jpeg",
       "songTitle": "오늘도 빛나는 너에게 (To You My Light) (Feat.이라온)",
       "artist": "마크툽 (MAKTUB)",
       "genre": "R&B/Soul"
@@ -13,10 +13,34 @@
     {
       "id": 2,
       "albumTitle": "A Night In Seoul",
-      "albumArt": "https://cdnimg.melon.co.kr/cm/album/images/000/05/422/5422_500.jpg/melon/resize/282/quality/80/optimize",
+      "albumArt": "/images/album/art/002.jpeg",
       "songTitle": "여전히 아름다운지",
       "artist": "김연우",
       "genre": "발라드"
+    },
+    {
+      "id": 3,
+      "albumTitle": "Principle Of My Soul",
+      "albumArt": "/images/album/art/003.jpeg",
+      "songTitle": "바람기억",
+      "artist": "나얼",
+      "genre": "R&B/Soul"
+    },
+    {
+      "id": 4,
+      "albumTitle": "Play OST",
+      "albumArt": "/images/album/art/004.jpeg",
+      "songTitle": "Play",
+      "artist": "메아트",
+      "genre": "록/메탈"
+    },
+    {
+      "id": 5,
+      "albumTitle": "Red Diary Page.1",
+      "albumArt": "/images/album/art/005.jpeg",
+      "songTitle": "나의 사춘기에게",
+      "artist": "볼빨간사춘기",
+      "genre": "포크/블루스"
     }
   ]
 }
