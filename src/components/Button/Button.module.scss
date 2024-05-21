@@ -1,0 +1,25 @@
+@import "@styles/mixin";
+
+.btn {
+  @include FlexCenter();
+
+  &.small {
+    padding: 4px;
+  }
+
+  &.medium {
+    padding: 8px;
+  }
+
+  &.large {
+    padding: 12px;
+  }
+
+  &.primary {
+    background-color: red;
+  }
+
+  &.secondary {
+    background-color: blue;
+  }
+}
